@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>4 random images</h3>
+    <div id="photos"></div>
+    <hr>
+    <h3>random day with photo</h3>
+    <div id="random-day"></div>
+    <hr>
+    <h3>3X4 table</h3>
+    <div id="table"></div>
+    <hr>
+    <h3>Choose amount of rows, columns and images</h3>
+    <div>
+        Enter rows: <input type="text" name="rows" id="rows">
+        Enter columns: <input type="text" name="columns" id="columns">
+        Enter images: <input type="text" name="images" id="images">
+        <button onclick="createTableWitImages()">Create table</button>
+    </div>
+      </form>
+    <div id="table-images">
+        <table></table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
